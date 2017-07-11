@@ -7,7 +7,7 @@ from os.path import isfile, join, splitext, basename
 #parameters to access BD services
 bds = 'https://bd-api.ncsa.illinois.edu'
 
-# key and token from the Brown Dog API Gateway service
+# token from the Brown Dog API Gateway service
 token = ""
 
 # path to the folder to process
