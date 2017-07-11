@@ -8,12 +8,15 @@ from os.path import isfile, join, splitext, basename
 bds = 'https://bd-api.ncsa.illinois.edu'
 
 # token from the Brown Dog API Gateway service
+# TODO: add your token
 token = ""
 
 # path to the folder to process
+# TODO: add input file, under input folder, you have dollar_bill.jpg and person.jpg
 input_file = ""
 
 # path to the folder to store output
+# TODO: add your output folder
 output_path = ""+str(int(time.time()))
 
 # output format
@@ -40,19 +43,23 @@ def convert(input_file, output_format, output_path, bds, token):
 	
 	# getting possible output format by the input format
 	# Hint: use bd.outputs(__,__,__)
+	# TODO: finish the line below
 	outputs = 
 
 	# create a output file name with path
 	output_file = output_path + '/' + filename + "." + output_format
 
 	# do the conversion
+	# TODO: finish the line below
 	return bd.convert(__, __, __, __,__, 60, True)	
 
 def extract(extract_file, bds, token):
 	print 'Processing File: ' + extract_file 
 	
-	#Hint: use bd.extract(__,__,__,120)
+	# Hint: use bd.extract(__,__,__,120)
+	# TODO: finish the line below
 	extract_output = 
+
 	return extract_output
 
 if __name__ == "__main__":    
